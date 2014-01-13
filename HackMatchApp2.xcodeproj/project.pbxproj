@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F158A2E01883BDCE006C1DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F158A2DF1883BDCE006C1DDF /* Foundation.framework */; };
+		F158A2E21883BDCE006C1DDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F158A2E11883BDCE006C1DDF /* CoreGraphics.framework */; };
+		F158A2E41883BDCE006C1DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F158A2E31883BDCE006C1DDF /* UIKit.framework */; };
+		F158A2EA1883BDCE006C1DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F158A2E81883BDCE006C1DDF /* InfoPlist.strings */; };
+		F158A2EC1883BDCE006C1DDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F158A2EB1883BDCE006C1DDF /* main.m */; };
+		F158A2F01883BDCE006C1DDF /* HMA2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F158A2EF1883BDCE006C1DDF /* HMA2AppDelegate.m */; };
+		F158A2F31883BDCE006C1DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158A2F11883BDCE006C1DDF /* Main.storyboard */; };
+		F158A2F61883BDCE006C1DDF /* HMA2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F158A2F51883BDCE006C1DDF /* HMA2ViewController.m */; };
+		F158A2F81883BDCE006C1DDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F158A2F71883BDCE006C1DDF /* Images.xcassets */; };
+		F158A2FF1883BDCE006C1DDF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F158A2FE1883BDCE006C1DDF /* XCTest.framework */; };
+		F158A3001883BDCE006C1DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F158A2DF1883BDCE006C1DDF /* Foundation.framework */; };
+		F158A3011883BDCE006C1DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F158A2E31883BDCE006C1DDF /* UIKit.framework */; };
+		F158A3091883BDCE006C1DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F158A3071883BDCE006C1DDF /* InfoPlist.strings */; };
+		F158A30B1883BDCE006C1DDF /* HackMatchApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F158A30A1883BDCE006C1DDF /* HackMatchApp2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F158A3021883BDCE006C1DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F158A2D41883BDCE006C1DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F158A2DB1883BDCE006C1DDF;
+			remoteInfo = HackMatchApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F158A2DC1883BDCE006C1DDF /* HackMatchApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackMatchApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F158A2DF1883BDCE006C1DDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F158A2E11883BDCE006C1DDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F158A2E31883BDCE006C1DDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F158A2E71883BDCE006C1DDF /* HackMatchApp2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackMatchApp2-Info.plist"; sourceTree = "<group>"; };
+		F158A2E91883BDCE006C1DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F158A2EB1883BDCE006C1DDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F158A2ED1883BDCE006C1DDF /* HackMatchApp2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackMatchApp2-Prefix.pch"; sourceTree = "<group>"; };
+		F158A2EE1883BDCE006C1DDF /* HMA2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMA2AppDelegate.h; sourceTree = "<group>"; };
+		F158A2EF1883BDCE006C1DDF /* HMA2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMA2AppDelegate.m; sourceTree = "<group>"; };
+		F158A2F21883BDCE006C1DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F158A2F41883BDCE006C1DDF /* HMA2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMA2ViewController.h; sourceTree = "<group>"; };
+		F158A2F51883BDCE006C1DDF /* HMA2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMA2ViewController.m; sourceTree = "<group>"; };
+		F158A2F71883BDCE006C1DDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F158A2FD1883BDCE006C1DDF /* HackMatchApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackMatchApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F158A2FE1883BDCE006C1DDF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F158A3061883BDCE006C1DDF /* HackMatchApp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackMatchApp2Tests-Info.plist"; sourceTree = "<group>"; };
+		F158A3081883BDCE006C1DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F158A30A1883BDCE006C1DDF /* HackMatchApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackMatchApp2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F158A2D91883BDCE006C1DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F158A2E21883BDCE006C1DDF /* CoreGraphics.framework in Frameworks */,
+				F158A2E41883BDCE006C1DDF /* UIKit.framework in Frameworks */,
+				F158A2E01883BDCE006C1DDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F158A2FA1883BDCE006C1DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F158A2FF1883BDCE006C1DDF /* XCTest.framework in Frameworks */,
+				F158A3011883BDCE006C1DDF /* UIKit.framework in Frameworks */,
+				F158A3001883BDCE006C1DDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F158A2D31883BDCE006C1DDF = {
+			isa = PBXGroup;
+			children = (
+				F158A2E51883BDCE006C1DDF /* HackMatchApp2 */,
+				F158A3041883BDCE006C1DDF /* HackMatchApp2Tests */,
+				F158A2DE1883BDCE006C1DDF /* Frameworks */,
+				F158A2DD1883BDCE006C1DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F158A2DD1883BDCE006C1DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F158A2DC1883BDCE006C1DDF /* HackMatchApp2.app */,
+				F158A2FD1883BDCE006C1DDF /* HackMatchApp2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F158A2DE1883BDCE006C1DDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F158A2DF1883BDCE006C1DDF /* Foundation.framework */,
+				F158A2E11883BDCE006C1DDF /* CoreGraphics.framework */,
+				F158A2E31883BDCE006C1DDF /* UIKit.framework */,
+				F158A2FE1883BDCE006C1DDF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F158A2E51883BDCE006C1DDF /* HackMatchApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				F158A2EE1883BDCE006C1DDF /* HMA2AppDelegate.h */,
+				F158A2EF1883BDCE006C1DDF /* HMA2AppDelegate.m */,
+				F158A2F11883BDCE006C1DDF /* Main.storyboard */,
+				F158A2F41883BDCE006C1DDF /* HMA2ViewController.h */,
+				F158A2F51883BDCE006C1DDF /* HMA2ViewController.m */,
+				F158A2F71883BDCE006C1DDF /* Images.xcassets */,
+				F158A2E61883BDCE006C1DDF /* Supporting Files */,
+			);
+			path = HackMatchApp2;
+			sourceTree = "<group>";
+		};
+		F158A2E61883BDCE006C1DDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F158A2E71883BDCE006C1DDF /* HackMatchApp2-Info.plist */,
+				F158A2E81883BDCE006C1DDF /* InfoPlist.strings */,
+				F158A2EB1883BDCE006C1DDF /* main.m */,
+				F158A2ED1883BDCE006C1DDF /* HackMatchApp2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F158A3041883BDCE006C1DDF /* HackMatchApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F158A30A1883BDCE006C1DDF /* HackMatchApp2Tests.m */,
+				F158A3051883BDCE006C1DDF /* Supporting Files */,
+			);
+			path = HackMatchApp2Tests;
+			sourceTree = "<group>";
+		};
+		F158A3051883BDCE006C1DDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F158A3061883BDCE006C1DDF /* HackMatchApp2Tests-Info.plist */,
+				F158A3071883BDCE006C1DDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F158A2DB1883BDCE006C1DDF /* HackMatchApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F158A30E1883BDCE006C1DDF /* Build configuration list for PBXNativeTarget "HackMatchApp2" */;
+			buildPhases = (
+				F158A2D81883BDCE006C1DDF /* Sources */,
+				F158A2D91883BDCE006C1DDF /* Frameworks */,
+				F158A2DA1883BDCE006C1DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackMatchApp2;
+			productName = HackMatchApp2;
+			productReference = F158A2DC1883BDCE006C1DDF /* HackMatchApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F158A2FC1883BDCE006C1DDF /* HackMatchApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F158A3111883BDCE006C1DDF /* Build configuration list for PBXNativeTarget "HackMatchApp2Tests" */;
+			buildPhases = (
+				F158A2F91883BDCE006C1DDF /* Sources */,
+				F158A2FA1883BDCE006C1DDF /* Frameworks */,
+				F158A2FB1883BDCE006C1DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F158A3031883BDCE006C1DDF /* PBXTargetDependency */,
+			);
+			name = HackMatchApp2Tests;
+			productName = HackMatchApp2Tests;
+			productReference = F158A2FD1883BDCE006C1DDF /* HackMatchApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F158A2D41883BDCE006C1DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HMA2;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Diego Calvo";
+				TargetAttributes = {
+					F158A2FC1883BDCE006C1DDF = {
+						TestTargetID = F158A2DB1883BDCE006C1DDF;
+					};
+				};
+			};
+			buildConfigurationList = F158A2D71883BDCE006C1DDF /* Build configuration list for PBXProject "HackMatchApp2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F158A2D31883BDCE006C1DDF;
+			productRefGroup = F158A2DD1883BDCE006C1DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F158A2DB1883BDCE006C1DDF /* HackMatchApp2 */,
+				F158A2FC1883BDCE006C1DDF /* HackMatchApp2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F158A2DA1883BDCE006C1DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F158A2F81883BDCE006C1DDF /* Images.xcassets in Resources */,
+				F158A2EA1883BDCE006C1DDF /* InfoPlist.strings in Resources */,
+				F158A2F31883BDCE006C1DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F158A2FB1883BDCE006C1DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F158A3091883BDCE006C1DDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F158A2D81883BDCE006C1DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F158A2F01883BDCE006C1DDF /* HMA2AppDelegate.m in Sources */,
+				F158A2EC1883BDCE006C1DDF /* main.m in Sources */,
+				F158A2F61883BDCE006C1DDF /* HMA2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F158A2F91883BDCE006C1DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F158A30B1883BDCE006C1DDF /* HackMatchApp2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F158A3031883BDCE006C1DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F158A2DB1883BDCE006C1DDF /* HackMatchApp2 */;
+			targetProxy = F158A3021883BDCE006C1DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F158A2E81883BDCE006C1DDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F158A2E91883BDCE006C1DDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F158A2F11883BDCE006C1DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F158A2F21883BDCE006C1DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F158A3071883BDCE006C1DDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F158A3081883BDCE006C1DDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F158A30C1883BDCE006C1DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F158A30D1883BDCE006C1DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F158A30F1883BDCE006C1DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackMatchApp2/HackMatchApp2-Prefix.pch";
+				INFOPLIST_FILE = "HackMatchApp2/HackMatchApp2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F158A3101883BDCE006C1DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackMatchApp2/HackMatchApp2-Prefix.pch";
+				INFOPLIST_FILE = "HackMatchApp2/HackMatchApp2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F158A3121883BDCE006C1DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackMatchApp2.app/HackMatchApp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackMatchApp2/HackMatchApp2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HackMatchApp2Tests/HackMatchApp2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F158A3131883BDCE006C1DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackMatchApp2.app/HackMatchApp2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackMatchApp2/HackMatchApp2-Prefix.pch";
+				INFOPLIST_FILE = "HackMatchApp2Tests/HackMatchApp2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F158A2D71883BDCE006C1DDF /* Build configuration list for PBXProject "HackMatchApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F158A30C1883BDCE006C1DDF /* Debug */,
+				F158A30D1883BDCE006C1DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F158A30E1883BDCE006C1DDF /* Build configuration list for PBXNativeTarget "HackMatchApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F158A30F1883BDCE006C1DDF /* Debug */,
+				F158A3101883BDCE006C1DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F158A3111883BDCE006C1DDF /* Build configuration list for PBXNativeTarget "HackMatchApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F158A3121883BDCE006C1DDF /* Debug */,
+				F158A3131883BDCE006C1DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F158A2D41883BDCE006C1DDF /* Project object */;
+}
