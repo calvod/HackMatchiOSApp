@@ -21,6 +21,10 @@
 		F158A3011883BDCE006C1DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F158A2E31883BDCE006C1DDF /* UIKit.framework */; };
 		F158A3091883BDCE006C1DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F158A3071883BDCE006C1DDF /* InfoPlist.strings */; };
 		F158A30B1883BDCE006C1DDF /* HackMatchApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F158A30A1883BDCE006C1DDF /* HackMatchApp2Tests.m */; };
+		F158A3161883BEE6006C1DDF /* nextstartup.png in Resources */ = {isa = PBXBuildFile; fileRef = F158A3141883BEE6006C1DDF /* nextstartup.png */; };
+		F158A3171883BEE6006C1DDF /* hellyeah.png in Resources */ = {isa = PBXBuildFile; fileRef = F158A3151883BEE6006C1DDF /* hellyeah.png */; };
+		F158A3191883BF87006C1DDF /* blackbar.png in Resources */ = {isa = PBXBuildFile; fileRef = F158A3181883BF87006C1DDF /* blackbar.png */; };
+		F158A31B1883C483006C1DDF /* DCRTHackMatch.png in Resources */ = {isa = PBXBuildFile; fileRef = F158A31A1883C483006C1DDF /* DCRTHackMatch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		F158A3061883BDCE006C1DDF /* HackMatchApp2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackMatchApp2Tests-Info.plist"; sourceTree = "<group>"; };
 		F158A3081883BDCE006C1DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F158A30A1883BDCE006C1DDF /* HackMatchApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackMatchApp2Tests.m; sourceTree = "<group>"; };
+		F158A3141883BEE6006C1DDF /* nextstartup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextstartup.png; sourceTree = "<group>"; };
+		F158A3151883BEE6006C1DDF /* hellyeah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hellyeah.png; sourceTree = "<group>"; };
+		F158A3181883BF87006C1DDF /* blackbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackbar.png; sourceTree = "<group>"; };
+		F158A31A1883C483006C1DDF /* DCRTHackMatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DCRTHackMatch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		F158A2E51883BDCE006C1DDF /* HackMatchApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				F158A31A1883C483006C1DDF /* DCRTHackMatch.png */,
+				F158A3181883BF87006C1DDF /* blackbar.png */,
+				F158A3141883BEE6006C1DDF /* nextstartup.png */,
+				F158A3151883BEE6006C1DDF /* hellyeah.png */,
 				F158A2EE1883BDCE006C1DDF /* HMA2AppDelegate.h */,
 				F158A2EF1883BDCE006C1DDF /* HMA2AppDelegate.m */,
 				F158A2F11883BDCE006C1DDF /* Main.storyboard */,
@@ -229,7 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F158A3161883BEE6006C1DDF /* nextstartup.png in Resources */,
+				F158A3191883BF87006C1DDF /* blackbar.png in Resources */,
+				F158A3171883BEE6006C1DDF /* hellyeah.png in Resources */,
 				F158A2F81883BDCE006C1DDF /* Images.xcassets in Resources */,
+				F158A31B1883C483006C1DDF /* DCRTHackMatch.png in Resources */,
 				F158A2EA1883BDCE006C1DDF /* InfoPlist.strings in Resources */,
 				F158A2F31883BDCE006C1DDF /* Main.storyboard in Resources */,
 			);

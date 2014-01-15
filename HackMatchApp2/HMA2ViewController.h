@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface HMA2ViewController : UIViewController
+//- (IBAction)hellYeahButtonPressed:(id)sender;
+//- (IBAction)fuckYouButtonPressed:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UILabel *descriptionLabel;
+
+@property(strong, nonatomic) IBOutlet UIButton *descriptionButton;
 @end
